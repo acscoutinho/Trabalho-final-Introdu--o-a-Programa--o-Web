@@ -1,0 +1,40 @@
+body {
+  background-color: wheat;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b45a10;
+  
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    border-color: #b45a10;
+  }
+
+  .button {
+    background-color: wheat;
+    color: #673206;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
